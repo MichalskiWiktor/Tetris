@@ -1,0 +1,92 @@
+body{
+	background-color:#332929;
+	padding:0;
+	margin:0;
+}
+body>div>header>h1{
+	color:#f27b13;
+	font-size:50px;
+	width:100%;
+	text-align:center;
+}
+body>div>main>div>section{
+	float:left;
+}
+main{
+	font-size:22px;
+	font-weight:bold;
+	text-align:center;
+}
+#tableOfHoldingElement{
+	background-color:#414D41;
+	border-radius:20px;
+	height:160px;
+	margin-bottom:60px;
+}
+#tableOfLevelScoreLines{
+	background-color:#A6664B;
+	border-radius:20px;
+	height:400px;
+	margin-bottom:60px;
+}
+#board{
+	border:2px solid black;
+	width:360px;
+	margin-left:40px;
+	margin-bottom:60px;
+}
+.sectionsOfScoreLevelLines{
+	height:100px;
+	opacity:1.5;
+	background-color:#de8662;
+	border-radius:20px;
+	font-size:40px;
+	line-height:250%;
+}
+.squares{
+	background-color:rgb(51, 41, 41);
+	width:10%;
+	height:29.75px;
+	border:2px solid #626363;
+	box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.3); 
+	float:left;
+}
+#holdShapes{
+	width:62%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.icons{
+	color:#e6e6e6;
+	font-size:45px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.helpSquares{
+	clear:both;
+	background-color:red;
+}
+.icons:hover{
+	color:#757373;
+}
+.buttons{
+	width:75px;
+	height:65px;
+	background-color:#757373;
+	display: table;
+	border-radius:40px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:-20px;
+}
+.buttons:hover{
+	cursor:pointer;
+	background-color:#e6e6e6;
+	color:#757373;
+	transition-duration:1s;
+}
+@media(max-width: 1200px){
+	.buttons{
+		margin-left:20px;
+	}
+}

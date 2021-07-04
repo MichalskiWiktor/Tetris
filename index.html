@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Tetris</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" href="fontello/css/fontello.css" type="text/css" />
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>Tetris</h1>
+			</header>
+			<main>
+				<div class="row gx-1">
+					<section class="col-4 col-sm-6 col-md-4 col-lg-3 col-xxl-2 offset-4 offset-sm-3 offset-md-0 offset-xxl-2">
+						<div id="tableOfHoldingElement">
+							<header>HOLD</header>
+							<div id="holdShapes"></div>
+						</div>
+						<div id="tableOfLevelScoreLines">
+							<header>SCORE</header>
+							<div id="sectionOfScore" class="sectionsOfScoreLevelLines">0</div>
+							<header>Level</header>
+							<div id="sectionOfLevel" class="sectionsOfScoreLevelLines">1</div>
+							<header>Lines</header>
+							<div id="sectionOfLines" class="sectionsOfScoreLevelLines">0</div>
+						</div>
+					</section>
+					<section class="col-10 col-sm-12 col-md-8 col-lg-5 col-xxl-4 offset-1 offset-sm-0">
+						<div id="board"></div>
+					</section>
+					<section class="col-10 col-sm-8 col-md-8 col-lg-4 col-xxl-4 offset-1 offset-sm-2 offset-md-3 offset-lg-0">
+						<div id="volumeButton" class="buttons"><i class="icon-volume-up icons"></i></div>
+						<div id="pouseButton" class="buttons"><i class="icon-pause icons"></i></div>
+					</section>
+				</div>
+			</main>
+		</div>
+		<script src="js/javascript.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>
